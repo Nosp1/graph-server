@@ -1,0 +1,23 @@
+{
+  "name": "json-graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "graphql-codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.2.0",
+    "json-graphql-server": "^2.2.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "graphql": "^14.7.0",
+    "graphql-schema-from-json": "^0.0.3"
+  }
+}
